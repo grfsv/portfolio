@@ -11,4 +11,8 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
+  server: {
+    host: true,
+    port: 5173,
+  },
 });
