@@ -3,8 +3,8 @@ import { Portfolio } from "../components/Portfolio";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Portfolio - Your Name" },
-    { name: "description", content: "フルスタックエンジニアのポートフォリオサイト" },
+    { title: "Portfolio" },
+    { name: "description", content: "ポートフォリオサイト" },
   ];
 }
 
